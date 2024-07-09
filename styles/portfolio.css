@@ -23,6 +23,7 @@
     padding: 18px 35px;
     border-radius: 5px;
     font-size: 20px;
+    border: none;
 }
 
 /* nav styles */
@@ -48,4 +49,30 @@ nav ul li{
 nav li a{
     text-decoration: none;
     font-size: 20px;
+}
+/* banner styles */
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+/* header */
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-profile-pic{
+    width: 580px;
 }
